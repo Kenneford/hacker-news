@@ -1,9 +1,9 @@
 import React from 'react'
 import {useState, useEffect} from "react"
 
-export default function Data() {
+export default function FetchData() {
     const [stories, setStories] = useState([])
-    const url = "http://hn.algolia.com/api/v1/search_by_date?tags=story"
+    const url = "http://hn.algolia.com/api/v1/search?"
 
     useEffect(()=>{
         const readStories = async ()=>{
