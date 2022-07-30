@@ -1,0 +1,45 @@
+.MainHeaderContainer{
+    display: flex;
+    background-color:#fe6f1c ;
+    align-items: center;
+}
+
+.Mainheaderlogo{
+    padding: 2px;
+    border: 1px solid #fff;
+    margin-right: 10px;
+}
+
+.Mainheaderlogo h1{
+    margin: 2px 5px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.Search-wrap{
+    margin-right: 5px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.search-p{
+    margin-bottom: -15px;
+}
+
+.search-input input{
+    width: 1600px;
+    padding: 15px;
+}
+
+.settings{
+    display: flex;
+}
+
+.fa-gear{
+    
+}
+
+.settings{
+
+}
+
