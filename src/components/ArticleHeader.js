@@ -1,7 +1,7 @@
 import React from 'react'
-import './StoriesHeader.css'
+import './ArticleHeader.css'
 
-export default function StoriesHeader() {
+export default function ArticleHeader() {
   return (
     <div className='story-head'>
         <div className='left-head'>
