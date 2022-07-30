@@ -1,14 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import {useState, useEffect} from "react"
-import MainHeader from './MainHeader';
+import FetchData from './FetchData';
 
 
 function App() {
-    return (
-    <MainHeader />
-    
-    )
+  return(
+    <div className='App'>
+      <FetchData />
+      {/* <Outlet /> */}
+    </div>
+  )
 }
 
 export default App;
