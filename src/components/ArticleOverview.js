@@ -40,9 +40,13 @@ export default function ArticleOverview() {
   return (
     <div>
         <ArticleHeader />
-        {params.id}
-        {data.title}
-        {content}
+        <div className='contentWrap'>
+          <div className='idTitle'>
+            <p>{params.id}</p>
+            <p>{data.title}</p>
+          </div>
+          <p className='content'>{content}</p>
+        </div>
     </div>
   )
 }
