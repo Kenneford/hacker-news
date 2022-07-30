@@ -1,12 +1,15 @@
 import React from 'react'
 import './ArticleHeader.css'
+import {Link} from 'react-router-dom'
 
 export default function ArticleHeader() {
   return (
     <div className='story-head'>
         <div className='left-head'>
             <div className='logo'>
-                <h3 className='logo-letter'>Y</h3>
+                <Link to="/">
+                  <h3 className='logo-letter'>Y</h3>
+                </Link>
             </div>
             <h3>Hacker News</h3>
             <p>new</p> | {''}

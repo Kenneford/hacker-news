@@ -28,6 +28,12 @@
     color: #696969;
     font-size: .81em;
 }
+.loading1{
+    color: #000;
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 30px;
+}
 .article-wrap{
     align-items: center;
     background: #fff;
@@ -102,4 +108,8 @@
     background: #afaeae;
     color: #fff;
     border: 1px solid #fff;
+}
+.active-page{
+    border: 1px solid #fe6f1c;
+    border-radius: 5px;
 }

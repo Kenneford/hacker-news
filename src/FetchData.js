@@ -60,7 +60,7 @@ const readArticles = async ()=>{
                 </div>
             </div>
             {isLoading ? (
-                    <p>Loading...</p>
+                    <p className="loading1">Loading...</p>
                     ) : (articles.map((article, id) => {
                         return(
                             <div key={id} className="article-wrap">
