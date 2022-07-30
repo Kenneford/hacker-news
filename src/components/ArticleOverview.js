@@ -26,7 +26,7 @@ export default function ArticleOverview() {
     readArticle()
   }, [])
   if(!data){
-    return <div>Loading...</div>
+    return <div className='loading'>Loading...</div>
   }
   const content = data?.children.map((e, i)=>{
     return(

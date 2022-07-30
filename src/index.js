@@ -15,7 +15,7 @@ root.render(
         <Route path='/' element={<App />}>
         </Route>
           <Route path='/article-overview/:id' element={<ArticleOverview />} />
-        {/* <Route path='*' element={
+        <Route path='*' element={
                 <div className='ooops'>
                     <h1 className='empty-page-msg'>Ooops! There is nothing in here...😒</h1>
                     <Link to="/" ><button className='ooops-btn'>Go Back</button></Link>
@@ -23,7 +23,7 @@ root.render(
                         <img src={logo} alt="sad-dog" />
                     </div>
                 </div>
-            } /> */}
+            } />
       </Routes>
     </Router>
   </React.StrictMode>
